@@ -29,7 +29,7 @@ BigQuery → star schema → Power BI dashboard.
 ## Status
 
 - [x] NEM12 parser (record-type-aware, handles variable structure)
-- [ ] Cleanse layer (invalid NMIs, interval-count validation, negatives, duplicates)
+- [x] Cleanse layer (invalid NMIs, interval-count validation, negatives, duplicates)
 - [ ] Normalisation to 3NF
 - [ ] BigQuery load
 - [ ] SQL star schema
