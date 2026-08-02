@@ -5,7 +5,7 @@ SELECT
    m.suffix,
    CASE m.suffix
       WHEN 'E1' THEN 'General Consumption'
-      WHEN 'B1' THEN 'Solar Generation '
+      WHEN 'B1' THEN 'Solar Generation'
       WHEN 'E2' THEN 'Controlled Load'
       WHEN 'Q1' THEN 'Reactive Power'
       ELSE 'Other'
